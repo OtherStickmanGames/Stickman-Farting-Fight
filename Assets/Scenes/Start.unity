@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1216,7 +1215,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 15.14801}
+  m_AnchoredPosition: {x: 0, y: 15.147949}
   m_SizeDelta: {x: 180.479, y: 92.743}
   m_Pivot: {x: 1, y: 0}
 --- !u!1 &1047915953
@@ -2254,6 +2253,14 @@ PrefabInstance:
       value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 4792043979716581602, guid: 0262af1c7948f9f479039ec8833f7447, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4792043979716581602, guid: 0262af1c7948f9f479039ec8833f7447, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4792043979716581602, guid: 0262af1c7948f9f479039ec8833f7447, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -8.800049
       objectReference: {fileID: 0}
@@ -2280,6 +2287,14 @@ PrefabInstance:
     - target: {fileID: 7552161643056914589, guid: 0262af1c7948f9f479039ec8833f7447, type: 3}
       propertyPath: m_Name
       value: WoM Cross Ad
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839886495130890869, guid: 0262af1c7948f9f479039ec8833f7447, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839886495130890869, guid: 0262af1c7948f9f479039ec8833f7447, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7987387776350519123, guid: 0262af1c7948f9f479039ec8833f7447, type: 3}
       propertyPath: m_Pivot.x
